@@ -1,6 +1,7 @@
 # alpha-trade
 
 [![npm version](https://badge.fury.io/js/alpha-trade.svg)](https://badge.fury.io/js/alpha-trade)
+![Node.js version](https://img.shields.io/badge/node-%3E%3D%2014.0.0-brightgreen)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
