@@ -6,5 +6,6 @@
 
 'use strict';
 const FetchAggregates = require("./lib/Polygon/FetchAggregates");
+const OptionContractSnapshot = require("./lib/Polygon/OptionContractSnapshot");
 
-module.exports = { FetchAggregates };
+module.exports = { FetchAggregates, OptionContractSnapshot };
