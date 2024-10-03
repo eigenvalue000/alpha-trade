@@ -29,19 +29,6 @@ We do not store or save your API key. Examine the package to verify this. Your A
 ---
 
 ### FetchAggregates(ticker, multiplier, timespan, from, to, adjusted, sort, limit)
-Output will be an array of objects of the form:
-```
- {
-    v: 8,
-    vw: 6.605,
-    o: 6.62,
-    c: 6.6,
-    h: 6.62,
-    l: 6.6,
-    t: 1713326400000,
-    n: 4
-  }
-```
 #### Example usage:
 ```
 const a = require("alpha-trade");
