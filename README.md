@@ -106,7 +106,7 @@ main()
 const a = require("alpha-trade");
 
 const main = async () => {
-    console.log(await a.FetchOptionTickers());
+    console.log(await a.FetchStockTickers());
 }
 main()
 
@@ -115,10 +115,10 @@ main()
 Or:
 
 ```
-const { FetchOptionTickers } = require("alpha-trade");
+const { FetchStockTickers } = require("alpha-trade");
 
 const main = async () => {
-    console.log(await FetchOptionTickers());
+    console.log(await FetchStockTickers());
 }
 main()
 ```
