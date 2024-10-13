@@ -99,3 +99,26 @@ const main = async () => {
 }
 main()
 ```
+
+### FetchStockTickers()
+#### Example usage:
+```
+const a = require("alpha-trade");
+
+const main = async () => {
+    console.log(await a.FetchOptionTickers());
+}
+main()
+
+```
+
+Or:
+
+```
+const { FetchOptionTickers } = require("alpha-trade");
+
+const main = async () => {
+    console.log(await FetchOptionTickers());
+}
+main()
+```
