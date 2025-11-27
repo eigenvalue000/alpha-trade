@@ -12,6 +12,7 @@ const FetchStockTickers = require("./lib/Polygon/FetchStockTickers");
 const FetchCompanyInfo = require("./lib/Polygon/FetchCompanyInfo");
 const FetchEtfTickers = require("./lib/Polygon/FetchEtfTickers");
 const FetchCurrentStockPrice = require("./lib/Polygon/FetchCurrentStockPrice");
+const FetchMarketStatus = require("./lib/Alpaca/FetchMarketStatus");
 
 module.exports = { FetchAggregates, 
     OptionContractSnapshot, 
@@ -19,5 +20,6 @@ module.exports = { FetchAggregates,
     FetchStockTickers,
     FetchCompanyInfo,
     FetchEtfTickers,
-    FetchCurrentStockPrice
+    FetchCurrentStockPrice,
+    FetchMarketStatus
 };
